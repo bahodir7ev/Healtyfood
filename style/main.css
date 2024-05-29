@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700,700italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 32px 0;
+}
+.header-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.header-links {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #150c01;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+}
+.header-link:hover {
+  color: #dc780b;
+  opacity: 100%;
+}
+.header-link.active {
+  color: #dc780b;
+  opacity: 100%;
+}
+@media screen and (max-width: 768px) {
+  .header-link {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .header-link {
+    display: none;
+  }
+}
+.header-button {
+  padding: 18px 28px;
+  border-radius: 5px;
+  background: #dc780b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+.header-button:hover {
+  color: #dc780b;
+  border-color: #dc780b;
+  background: transparent;
+}
+@media screen and (max-width: 768px) {
+  .header-button {
+    padding: 15px 25px;
+    font-size: 12px;
+  }
+}
+
+.banner {
+  padding: 80px 0;
+}
+.banner-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.banner-title {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 118%;
+  color: #150c01;
+  margin-bottom: 36px;
+  transition: all 0.2s ease-in-out;
+}
+.banner-title:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .banner-title {
+    font-size: 38px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner-title {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-title {
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
+}
+.banner-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #150c01;
+  opacity: 0.7;
+  margin: 27px 0;
+  transition: all 0.2s ease-in-out;
+}
+.banner-subtitle:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .banner-subtitle {
+    font-size: 14px;
+    margin: 25px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner-subtitle {
+    font-size: 12px;
+  }
+}
+.banner-btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width: 1000px) {
+  .banner-btns {
+    column-gap: 15px;
+  }
+}
+.banner-btn {
+  border-radius: 5px;
+  padding: 22px 32px;
+  background: transparent;
+  border: 1px solid #dc780b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #dc780b;
+  transition: all 0.2s ease-in-out;
+}
+.banner-btn.orange {
+  background-color: #dc780b;
+  color: #fff;
+}
+.banner-btn.orange:hover {
+  background-color: transparent;
+  border-color: #dc780b;
+  color: #dc780b;
+}
+.banner-btn:hover {
+  border-color: transparent;
+  background-color: #dc780b;
+  color: #fff;
+}
+@media screen and (max-width: 1000px) {
+  .banner-btn {
+    padding: 19px 29px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner-btn {
+    padding: 17px 27px;
+    font-size: 12px;
+  }
+}
+.banner-image {
+  width: 50%;
+  height: 100%;
+}
+.banner-image img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */
