@@ -222,13 +222,17 @@ li {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   column-gap: 30px;
   transition: all 0.2s ease-in-out;
 }
 @media screen and (max-width: 1000px) {
   .banner-btns {
     column-gap: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-btns {
+    justify-content: center;
   }
 }
 .banner-btn {

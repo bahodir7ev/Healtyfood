@@ -97,12 +97,15 @@
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
         column-gap: 30px;
         @include trn();
-
+        
         @include media (1000) {
             column-gap: 15px;
+        }
+
+        @include media (768) {
+            justify-content: center;
         }
     }
 
