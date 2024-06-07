@@ -1,0 +1,76 @@
+.contact {
+    background: rgba(220, 120, 11, 0.1);
+    padding: 120px 0;
+
+    &-row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-name {
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $orange-color;
+        margin-bottom: 15px;
+    }
+
+    &-title {
+        font-family: $second-family;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 130%;
+        text-align: center;
+        color: $text-color;
+        margin-bottom: 45px;
+    }
+
+    &-msg {
+        width: 750px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-input {
+            width: 80%;
+            height: 100%;
+            background-color: $white-color;
+            border: none;
+            outline: none;
+            border-radius: 10px 0 0 10px;
+            padding-left: 32px;
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 254%;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        &-btn {
+            width: 20%;
+            height: 100%;
+            border-radius: 10px;
+            background: $orange-color;
+            position: relative;
+            left: -10px;
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 226%;
+            text-align: center;
+            color: $white-color;
+
+            &:hover {
+                @include trn();
+                transform: scale(1.01);
+            }
+        }
+    }
+}
