@@ -133,6 +133,114 @@ li {
   }
 }
 
+.footer {
+  padding-top: 140px;
+  padding-bottom: 104px;
+  background: #252525;
+}
+.footer-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-first-col {
+  width: 270px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+}
+.footer-first-col a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+.footer-first-col a:hover {
+  text-decoration: underline;
+}
+.footer-second-col {
+  width: 270px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+}
+.footer-second-col h4 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+.footer-second-col h4:hover {
+  cursor: pointer;
+}
+.footer-second-col a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+.footer-second-col a:hover {
+  text-decoration: underline;
+}
+.footer-third-col {
+  width: 270px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+}
+.footer-third-col h4 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+.footer-third-col h4:hover {
+  cursor: pointer;
+}
+.footer-third-col a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+.footer-third-col a:hover {
+  text-decoration: underline;
+}
+.footer-fourth-col {
+  width: 270px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+}
+.footer-fourth-col h4 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+.footer-fourth-col h4:hover {
+  cursor: pointer;
+}
+.footer-fourth-col a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+.footer-fourth-col a:hover {
+  text-decoration: underline;
+}
+
 .banner {
   padding: 80px 0;
 }
